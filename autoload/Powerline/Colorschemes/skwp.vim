@@ -39,7 +39,6 @@ call Pl#Hi#Allocate({
 	\ 'gray8'          : 247,
 	\ 'gray9'          : 250,
 	\ 'gray10'         : 252,
-  \
   \ 'base00'         : [241, 0x657b83],
 	\ 'base01'         : [240, 0x586e75],
 	\ 'base02'         : [235, 0x073642],
@@ -105,7 +104,7 @@ let g:Powerline#Colorschemes#skwp#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['base03', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+	\ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['gray5', 'gray2'],
 		\ 'i': ['mediumcyan', 'base02'],
 		\ }),
@@ -185,7 +184,7 @@ let g:Powerline#Colorschemes#skwp#colorscheme = Pl#Colorscheme#Init([
 		\ 'n': ['white', 'base03'],
 		\ }),
   \
-  \ Pl#Hi#Segments(['sass:status'], {
+  \ Pl#Hi#Segments(['status'], {
 		\ 'n': ['green', 'base02'],
 		\ 'N': ['gray5', 'base02'],
     \ }),
