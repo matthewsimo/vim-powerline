@@ -70,7 +70,7 @@ function! Powerline#Functions#GetMode() " {{{
 		let mode = 'REPLACE' " Replace mode
 	else
 		" Fallback to normal mode
-		let mode = ' N ' " Normal (current)
+		let mode = ' NORMAL ' " Normal (current)
 	endif
 
 	return mode

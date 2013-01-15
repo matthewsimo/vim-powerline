@@ -8,14 +8,19 @@
 let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
 	\ Pl#Theme#Buffer(''
 		\ , 'fugitive:branch'
+		\ , 'mode_indicator'
 		\ , 'fileinfo'
 		\ , 'flags.mod'
+		\ , 'filetype'
+		\ , 'fileencoding'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
+		\ , 'cfi:current_function'
 		\ , Pl#Segment#Split()
 		\ , 'sass:status'
 		\ , 'rvm:string'
 		\ , 'paste_indicator'
+		\ , 'scrollpercent'
 	\ ),
 	\
 	\ Pl#Theme#Buffer('command_t'
