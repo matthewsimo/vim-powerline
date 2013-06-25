@@ -13,13 +13,13 @@ let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
 		\ , 'flags.mod'
 		\ , 'filetype'
 		\ , 'fileencoding'
+		\ , 'paste_indicator'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
 		\ , 'cfi:current_function'
 		\ , Pl#Segment#Split()
 		\ , 'sass:status'
 		\ , 'rvm:string'
-		\ , 'paste_indicator'
 		\ , 'scrollpercent'
 	\ ),
 	\
